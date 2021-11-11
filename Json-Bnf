@@ -3,4 +3,8 @@
 <primitivo> :: = <número> | <cadena> | <booleano>
 <número> ::= <digito>|<numero><digito>
 <cadena> ::= <letra>|<cadena><letra>
+<booleano> ::= <true>|<false>|<null>
 
+<contenedor> :: = <objeto> | <array>
+<array> :: = '['<whitespace>']' |  '['<json> ']' | '['<array> ',' <json> ']' 
+<objeto> :: = '{'<whitespace> '}' |  '{' <miembro>'}' | '{' <objeto>  ',' <miembro> '}'
