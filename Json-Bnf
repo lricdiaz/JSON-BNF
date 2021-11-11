@@ -1,0 +1,6 @@
+<json> :: = <primitivo> | <contenedor>
+
+<primitivo> :: = <número> | <cadena> | <booleano>
+<número> ::= <digito>|<numero><digito>
+<cadena> ::= <letra>|<cadena><letra>
+
