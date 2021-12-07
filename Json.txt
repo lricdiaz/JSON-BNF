@@ -1,1 +1,6 @@
-
+{
+"nombre":"Tom",
+"apellido":"Jackson",
+"género":"masculino",
+"hobby":["fútbol", "lectura", "natación"]
+}
