@@ -1,1 +1,16 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+int main()
+{
+    char cadena[128];
+    ifstream fe("C:/AnaLex/AnalizadorLexico.txt");
+    while (!fe.eof()) {
+        fe >> cadena;
+        cout << cadena << " ";
+    }
+    fe.close();
+    system("pause");
+    return 0;
+}
 
